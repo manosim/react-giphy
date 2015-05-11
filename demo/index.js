@@ -1,1 +1,0 @@
-require('./js/example-random');
