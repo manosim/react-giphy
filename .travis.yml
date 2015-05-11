@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+- '0.12'
+
+install:
+    - npm install
+
+script:
+    - npm build
+
+after_success:
+    - bash deploy.sh
