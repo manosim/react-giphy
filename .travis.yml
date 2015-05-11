@@ -3,6 +3,10 @@ language: node_js
 node_js:
 - '0.12'
 
+env:
+    global:
+        secure: FNNRlCNkYwFJ+4/XrDF7vZSNu8VG/2Ica56NQXgIJxCxZ+7qO8sfmGxNE3iBLxvx7VoVLs86oltFlSev2o9SF/M/ns2Gn6HX8M626f/MhTNNRmwTNz7hiV+QvNWF/6BBYPG9fMnqoC1JnOO0mmsmDWnaEma/g0VNBP6x4vePUSI=
+
 install:
     - npm install
 
