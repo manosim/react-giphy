@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-BRANCH=gh-pags
+BRANCH=gh-pages
 TARGET_REPO=ekonstantinidis/react-giphy.git
 OUTPUT_FOLDER=demo
 
