@@ -32,6 +32,11 @@ h2, h3, h4 {
     margin-bottom: 20px;
 }
 
+.footer .img-responsive {
+    margin: 0 auto;
+    max-width: 175px;
+}
+
 .footer .links {
     padding: 20px 0;
 }
