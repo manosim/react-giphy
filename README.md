@@ -5,12 +5,36 @@ React Giphy [![Build Status](https://travis-ci.org/ekonstantinidis/react-giphy.s
 
 ## Installation
 
-Sooon.
+    npm install --save react-giphy
+
+
+### [Demo](https://ekonstantinidis.github.io/react-giphy)
+
 
 ## Usage
 
-Sooon.
+##### Random Gif
+Display a random gif. Surprise!
+
+    <ReactGiphy />
+
+##### Using a tag
+Use tags like 'cat' or 'llama'.
+
+    <ReactGiphy tag='llama' />
+
+##### Search for gifs
+Just search for aaanything you like.
+
+    <ReactGiphy search='game of thrones' />
+
 
 ## Development
+Install `http-server` from npm, run it and go to http://127.0.0.1:8080/
 
-Sooon.
+    npm install -g http-server
+    npm run serve
+
+In another tab:
+
+    npm run watch
