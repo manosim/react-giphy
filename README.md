@@ -38,3 +38,14 @@ Install `http-server` from npm, run it and go to http://127.0.0.1:8080/
 In another tab:
 
     npm run watch
+
+## Dockerize the app
+If you want to run the app in a docker container, execute the command below in your terminal:
+
+```bash
+# build the container
+docker build -t react-giphy .
+# run the container and forward the port to localhost:
+docker run --rm -p 8080:8080 react-giphy
+```
+Now you can access the app from localhost: http://127.0.0.1:8080/
