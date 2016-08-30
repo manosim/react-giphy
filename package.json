@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "http-server 'demo/'",
+    "start": "http-server 'demo/'",
     "build": "mkdir -p demo/build/ && browserify -t reactify demo/index.js -o demo/build/app.js",
     "watch": "npm run build && watchify -t reactify demo/index.js -o demo/build/app.js -v",
     "test": "jsxhint --reporter node_modules/jshint-stylish/stylish.js '*.js'"
