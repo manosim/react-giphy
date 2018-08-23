@@ -1,7 +1,7 @@
 var React = require('react');
 var request = require('superagent');
 
-module.exports = React.createClass({
+export default class ReactGiphy extends React.Component {
 
   displayName: 'ReactGiphy',
 
