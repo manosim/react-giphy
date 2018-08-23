@@ -1,8 +1,9 @@
 var React = require('react');
 var request = require('superagent');
 
-module.exports = React.createClass({
+var createReactClass = require('create-react-class');
 
+module.exports = createReactClass({
   displayName: 'ReactGiphy',
 
   getInitialState: function () {
