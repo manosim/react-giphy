@@ -33,7 +33,7 @@
     "jsxhint": "^0.14.0",
     "reactify": "^1.1.0",
     "superagent": "^1.2.0",
-    "watchify": "^3.2.1"
-    "superagent" : "^3.8.3:
+    "watchify": "^3.2.1",
+    "superagent" : "^3.8.3
   }
 }
